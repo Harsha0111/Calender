@@ -17,7 +17,7 @@ public class Model {
         
         System.out.print("Annual Interest Rate: ");
         float annualInterest = scanner.nextFloat();
-        float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
+        float monthlyInterest = annualInterest / P ERCENT / MONTHS_IN_YEAR;
         
         System.out.print("Period (Years): ");
         byte years = scanner.nextByte();
